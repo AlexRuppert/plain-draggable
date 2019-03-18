@@ -2146,8 +2146,8 @@ pointerEvent.addMoveHandler(document, function (pointerXY) {
 
       layoutChanging = false;
     });
-    window.addEventListener('resize', layoutChange, true);
-    window.addEventListener('scroll', layoutChange, true);
+    //window.addEventListener('resize', layoutChange, true);
+    //window.addEventListener('scroll', layoutChange, true);
   };
 
   if (body = document.body) {
